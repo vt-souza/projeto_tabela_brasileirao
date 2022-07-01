@@ -1,0 +1,138 @@
+/* GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --azul-marinho: #003366;
+    --azul-celeste: #1398be;
+    --laranja: #de9800;
+    --cinza: #cccccc;
+    --vermelho: #c91b04;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  table {
+    display: flexbox;
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    min-width: 45vw;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* THEAD */
+  thead {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  thead th {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  /* TBODY */
+  tbody td {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  tbody .borda-estilizada {
+    border-bottom: 2px solid #cccccc;
+  }
+  
+  tbody td:nth-child(odd) {
+    background-color: #f7f7f7;
+  }
+  
+  tbody td.pontos, tbody td.qtd-pontos {
+    width: 1rem;
+  }
+  
+  tbody td.porcentagem {
+    width: 7%;
+  }
+  
+  tbody td.classificacao {
+    width: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+  }
+  
+  tbody td.time {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-align: left;
+    width: 7em;
+  }
+  
+  tbody td.qtd-pontos {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .azul-marinho {
+    color: var(--azul-marinho);
+  }
+  
+  .azul-celeste {
+    color: var(--azul-celeste);
+  }
+  
+  .laranja {
+    color: var(--laranja);
+  }
+  
+  .cinza {
+    color: var(--cinza);
+  }
+  
+  .vermelho {
+    color: var(--vermelho);
+  }
+  
+  /*  FOOT */
+  
+  tfoot i {
+    padding-right: 0.2rem;
+  }
+  
+  tfoot td {
+    border: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  
+  .legenda-class {
+    padding-left: 3px;
+    font-size: 10px;
+    color: #8f8f8f;
+    text-align: left;
+  }
+  
+  .legendas {
+    padding: 1px;
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+  }
